@@ -45,8 +45,8 @@ glusterfs                 kubernetes.io/glusterfs   3d4h
 ### 最小化快速部署
 
 ```bash
-kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.4.1/kubesphere-installer.yaml
-kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.4.1/cluster-configuration.yaml
+kubectl apply -f https://github.com/wjcAndy/ks-installer3.4.1/tree/main/deploy/kubesphere-installer.yaml
+kubectl apply -f https://github.com/wjcAndy/ks-installer3.4.1/tree/main/deploy/cluster-configuration.yaml
 ```
 
 查看部署进度及日志
